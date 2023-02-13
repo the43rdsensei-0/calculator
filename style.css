@@ -89,12 +89,18 @@ input::placeholder {
 }
 
 @media screen and (max-width: 375px) {
+    .app-wrapper {
+        padding: 1.5em 0;
+    }
     .calculator {
         max-width: 80%;
     }
 }
 
 @media screen and (max-width: 285px) {
+    .app-wrapper {
+        padding: 1.5em 0;
+    }
     .calculator {
         max-width: 90%;
     }

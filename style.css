@@ -94,7 +94,7 @@ input::placeholder {
     }
     .calculator {
         max-width: 80%;
-        height: 80%;
+        height: 90%;
         padding: 1.5em;
     }
 
@@ -118,7 +118,7 @@ input::placeholder {
     }
     .calculator {
         max-width: 90%;
-        height: 80%;
+        height: 90%;
         padding: 1.5em;
     }
 

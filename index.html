@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="app-wrapper">
+        <div class="calculator">
+                <input type="text" class="screen" id="screen" placeholder="">
+        
+                        <button class="key symbol" onclick="wipeAll()">AC</button>
+                        <button class="key symbol" onclick="wipe()">C</button>
+                        <button class="key symbol" onclick="show('/')">/</button>
+                        <button class="key symbol" onclick="show('*')">*</button>
+        
+                        <button class="key number" onclick="show('7')">7</button>
+                        <button class="key number" onclick="show('8')">8</button>
+                        <button class="key number" onclick="show('9')">9</button>
+                        <button class="key symbol" onclick="show('-')">-</button>
+        
+                        <button class="key number" onclick="show('4')">4</button>
+                        <button class="key number" onclick="show('5')">5</button>
+                        <button class="key number" onclick="show('6')">6</button>
+                        <button class="key number" onclick="show('+')">+</button>
+        
+                        <button class="key number" onclick="show('1')">1</button>
+                        <button class="key number" onclick="show('2')">2</button>
+                        <button class="key number" onclick="show('3')">3</button>
+                        <button class="key symbol" onclick="show('.')">.</button>
+        
+                        <button class="key number" onclick="show('(')">(</button>
+                        <button class="key number" onclick="show('0')">0</button>
+                        <button class="key number" onclick="show(')')">)</button>
+                        <button class="key symbol" onclick="calc('=')">=</button>
+        </div>
+        <div class="foot">Made with ❤️ and 🎶 by the43rdSensei</div>
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
